@@ -1,0 +1,40 @@
+:root {
+    --color-medium-green: #0c6f30;
+    --color-green: #0a9e40;
+    --color-gray-green: #687864;
+    --color-dark-blue: #31708E; 
+    --color-medium-blue: #5085A5;
+    --color-light-blue: #8FC1E3;
+    --color-white: #F7F9FB;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-light-blue);
+    height: 60px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a {
+    flex-direction: row;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.links a:visited {
+    color: var(--color-white);
+}
+
+.links a:hover {
+    cursor: pointer;
+}
+
+.links a:active {
+    color: var(--color-medium-green);
+}
